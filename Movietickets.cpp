@@ -23,7 +23,7 @@ bool cancel(int customer, int movie) {
 bool isBooked(int customer, int movie) {
     return booked[movie][customer];
 }
-
+//
 int availableTickets(int movie) {
     return 100 - countTickets[movie];
 }
